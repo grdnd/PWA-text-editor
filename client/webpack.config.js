@@ -26,15 +26,9 @@ module.exports = () => {
 
     plugins: [
       // html webpack
-      new HtmlWebpackPlugin({
-        template: './index.html',
-        title: 'J.A.T.E'
-      }),
+      new HtmlWebpackPlugin({ template: './index.html', title: 'J.A.T.E', minify: false }),
       // attach service worker
-      new InjectManifest({
-        swSrc: './src-sw.js',
-        swDest: 'src-sw.js',
-      }),
+      new InjectManifest({ swSrc: './src-sw.js', swDest: 'src-sw.js', }),
       // creates a manifest.json
       new WebpackPwaManifest({
         fingerprints: false,
@@ -62,10 +56,7 @@ module.exports = () => {
     // css loader
     module: {
       rules: [
-        {
-          test: /\.css$/i,
-          use: ['style-loader', 'css-loader'],
-        },
+        { test: /\.css$/i, use: ['style-loader', 'css-loader'], },
         // babel loader
         {
           test: /\.m?js$/,
@@ -79,6 +70,9 @@ module.exports = () => {
           }
         }
       ],
+    },
+    optimization: {
+      minimize: false
     },
   };
 };
