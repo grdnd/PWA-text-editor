@@ -27,7 +27,13 @@ Once our dependencies have been successfully installed we can proceed to run the
 
 ## Usage
 
+![JATEscreenshot](https://user-images.githubusercontent.com/93315369/169623911-39a20b22-9683-474f-abda-6ddd42b1a72f.png)
+
 Once we access the live server, you're done! The application will be ready to use and you can start taking notes with JATE immediately!
+
+
+
+![JATEgif](https://user-images.githubusercontent.com/93315369/169623918-667d6fea-044f-42ea-9b01-fa7cd0f9e138.gif)
 
 If the user would like to install the application for offline use, simply hit the [ install ] button and voila! You may now run JATE on your favorite web browser
 
