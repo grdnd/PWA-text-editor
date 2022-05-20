@@ -8,7 +8,7 @@ const express = require('express');
 const app = express();
 
 // specify PORT
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 5050;
 
 // use static to serve static files
 app.use(express.static('../client/dist'));
