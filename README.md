@@ -43,7 +43,7 @@ If the user would like to install the application for offline use, simply hit th
 
 If you would like to make a contribution to this project, you can access the application's github repository at:
 
-[JATE-PWA-Text-Editor]()
+[JATE-PWA-Text-Editor](https://github.com/grdnd/PWA-text-editor)
 
 ### Tests
 
