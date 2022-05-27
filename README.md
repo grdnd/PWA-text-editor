@@ -31,6 +31,8 @@ Once our dependencies have been successfully installed we can proceed to run the
 
 ![JATEscreenshot](https://user-images.githubusercontent.com/93315369/169623911-39a20b22-9683-474f-abda-6ddd42b1a72f.png)
 
+[Try JATE!](https://pwa-just-a-text-editor.herokuapp.com/)
+
 Once we access the live server, you're done! The application will be ready to use and you can start taking notes with JATE immediately!
 
 
